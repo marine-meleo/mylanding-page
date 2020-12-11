@@ -1,0 +1,36 @@
+.tabs-underlined {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.tabs-underlined .tab-underlined {
+  color: black;
+  padding: 8px;
+  margin: 8px 16px;
+  opacity: .4;
+  cursor: pointer;
+  text-decoration: none;
+  border-bottom: 4px solid transparent;
+  color: white;
+}
+
+.tabs-underlined .tab-underlined.active {
+  opacity: 1;
+  border-bottom: 3px solid #555555;
+  color: white;
+}
+ul {
+    list-style-type: none;
+}
+
+@media (max-width: 720px) {
+  .tabs-underlined {
+  visibility: hidden;
+  }
+}
+@media (max-width: 540px) {
+  .tabs-underlined {
+  visibility: hidden;
+  }
+}

@@ -1,0 +1,31 @@
+@import url("components/card.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/footer.css");
+@import url("components/container.css");
+@import url("components/tabs.css");
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: black;
+	margin: 0px;
+}
+
+h1, h2 {
+	font-family: Arial;
+	color : #F52F57;
+	letter-spacing: 1.5px;
+	text-align: left;
+	text-decoration: none; 
+}
+h3 {
+	font-family: Arial;
+	color :#F52F57 ;
+	letter-spacing: 1px;
+	text-align: left;
+	text-decoration: none; 
+}
+p{
+	color: white;
+}
+
